@@ -1,0 +1,2 @@
+rootProject.name='Lista de Convidados'
+include ':app'
