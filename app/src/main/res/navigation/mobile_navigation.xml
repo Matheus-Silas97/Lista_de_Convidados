@@ -9,7 +9,7 @@
         android:id="@+id/nav_all"
         android:name="com.matheussilas.listadeconvidados.view.AllGuestsFragment"
         android:label="@string/menu_all_guests"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_all" >
 
     </fragment>
 
@@ -17,11 +17,11 @@
         android:id="@+id/nav_presents"
         android:name="com.matheussilas.listadeconvidados.view.PresentsFragment"
         android:label="@string/menu_presents"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_presents" />
 
     <fragment
         android:id="@+id/nav_absents"
         android:name="com.matheussilas.listadeconvidados.view.AbsentsFragment"
         android:label="@string/menu_absents"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_absents" />
 </navigation>
